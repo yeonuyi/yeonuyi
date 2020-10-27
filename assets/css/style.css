@@ -1,0 +1,419 @@
+/*=============================================================
+=======
+    Authour URL: www.designbootstrap.com
+    
+    http://www.designbootstrap.com/
+
+    License: MIT
+
+    http://opensource.org/licenses/MIT
+
+    100% Free To use For Personal And Commercial Use.
+
+    IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
+   
+========================================================  */
+
+/*==============================
+GENERAL STYLES
+==============================*/
+
+@import url(http://fonts.googleapis.com/css?family=Anton|Maven+Pro:500,700);
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+    line-height: 25px;
+}
+
+.pad-bottom {
+    padding-bottom: 60px;
+}
+
+section {
+    padding-bottom: 120px;
+    padding-top: 100px;
+}
+
+.btn {
+    border-radius: 0px;
+    color: white;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+.set-bk-clr {
+    color: white;
+    background-color: #85B2CB;
+}
+
+.clr-set {
+    //color: #85B2CB;
+    color: white;
+    background-color: #85B2CB;
+}
+
+.f-big {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.set-bk-clr:hover {
+    color: white;
+    background-color: #749EB6;//rgba(107, 1, 41, 0.67);
+}
+/*==============================
+NAVBAR STYLES
+==============================*/
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.navbar-brand {
+padding:0px;
+
+}
+    .navbar-brand img {
+        height:50px;
+    }
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+}
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #FFF;
+    }
+
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-weight: 900;
+}
+
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        color: #38627A; //#000;
+        text-decoration: none;
+    }
+
+.navbar-default {
+    background-color: #85B2CB;
+    border-color: transparent;
+}
+/* ADDED PADDING IN NAVBAR */
+.navbar {
+    padding: 15px;
+    -webkit-transition: background .8s ease-out,padding .8s ease-out;
+    -moz-transition: background .8s ease-out,padding .8s ease-out;
+    transition: background .8s ease-out,padding .8s ease-out;
+}
+/* CLASS FOR REMOVING PADDING IN NAVBAR*/
+.navbar-pad-original {
+    padding: 0px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    //color: #000;
+    color: #38627A;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+
+/* =============================================================
+  HEADER SECTION STYLES
+ ============================================================ */
+
+#header {
+    background: url(../img/home.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+    #header .overlay {
+	background-color: rgba(255, 255, 255, 0.8);
+        //background-color: rgba(3, 3, 3, 0.8);
+        min-height: 740px;
+    }
+
+    #header h1 {
+        line-height: 60px;
+        font-size: 45px;
+        font-weight: 900;
+        padding-top: 130px;
+        padding-bottom: 20px;
+        color: #85B2CB;
+    }
+
+
+    #header h4 {
+        line-height: 30px;
+        font-size: 15px;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+	color: #444444;
+    }
+
+    #header .social {
+        margin-right: 5px;
+	width: 30px;
+	height: 30px;
+    }
+
+    #header .avatar {
+        height: 150px;
+	width: 150px;
+    }
+
+    #header i {
+        font-size: 40px;
+        padding: 15px;
+        color: #85B2CB;
+    }
+
+    #header i:hover {
+        color: #749EB6;
+    }
+
+    #header a:hover {
+	  text-decoration:none;
+	  color: white;
+    }
+
+    #header a:visited {
+	  text-decoration:none;
+	  color: white;
+    }
+
+
+/*================================
+    ABOUT STYLES
+==================================*/
+#about {
+    background-color: rgba(237, 237, 237, 1);
+}
+
+    #about i {
+        font-size: 80px;
+        padding: 30px;
+        color: #85B2CB;
+    }
+
+    #about is {
+        //font-size: 30px;
+        //padding: 30px;
+        color: #85B2CB;
+    }
+
+    #about h4 {
+        padding-bottom: 5px;
+        padding-top: 10px;
+	 
+    }
+
+    #about .progress {
+        aria-valuenow="30";
+	 aria-valuemin="0";
+	 aria-valuemax="100";
+	 margin-top: 8px;
+    }
+
+
+/* =============================================================
+  EXPERIENCE SECTION STYLES
+ ============================================================ */
+
+#clients {
+    background: url(../img/clients.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+}
+
+    #clients .overlay {
+        background-color: rgba(0,0,0,0.7);
+        padding-top: 90px;
+        min-height: 300px;
+        color: #fff;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+.clients-carousel {
+    margin-top: 50px; /*SMALL TOP MARGIN FOR SPACE */
+    padding: 0 30px 30px 30px;
+}
+
+    .clients-carousel .thumbnail {
+        border: 1px solid #85B2CB;
+    }
+
+    .clients-carousel .carousel-control.left {
+        height: 30px;
+        width: 25px;
+        margin-top: 45px;
+        background: #85B2CB;
+        left: -15px;
+    }
+
+    .clients-carousel .carousel-control.right {
+        height: 30px;
+        width: 25px;
+        margin-top: 45px;
+        background: #85B2CB;
+        right: -15px;
+    }
+
+    .clients-carousel img {
+        width: 100%;
+        height: 120px;
+    }
+
+#clients .thumbnail {
+    background-color: transparent;
+}
+
+/* =============================================================
+ PROJECTS SECTION STYLES
+ ============================================================ */
+
+/* FOR CHANGING COLOR OF ACTIVE CATEGORY */
+.caegories a.active {
+    background-color: #85B2CB;
+    border: 2px solid #85B2CB;
+}
+
+/* FOR TRANSITION BEAUTIFULLY */
+.isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+#projects .projects-wrapper {
+    border: 2px solid #85B2CB;
+    padding: 2px;
+    margin: 5px 5px 10px 5px;
+}
+
+#projects img {
+    //filter: gray; /* FOR IE6-9 */
+    //-webkit-filter: grayscale(1); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
+     //opacity: 0.8;
+	//object-fit: contain;
+}
+
+    #projects img:hover {
+        filter: none; /* FOR IE6-9 */
+        -webkit-filter: grayscale(0); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
+        opacity: 1;
+    }
+
+   #projects .projectview {
+    position: static;
+    display: grid;
+    height: auto;
+    //width: 100%;
+    min-height: auto;
+    grid-template-rows: min-content min-content min-content min-content 1fr;
+    grid-template-columns: 100%;
+		height: auto;
+    //width: 750px;
+    }
+
+    #projects h4 {
+	padding-top: 10px;
+   	 line-height: 25px;
+       font-size: 18px;
+    }
+
+
+/* =============================================================
+  TESTIMONIAL SECTION STYLES
+ ============================================================ */
+#testimonial {
+    background: url(../img/testimonial.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+}
+
+    #testimonial .overlay {
+        background-color: rgba(0,0,0,0.7);
+        padding-top: 90px;
+        min-height: 300px;
+        color: #fff;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+/* =============================================================
+  TEAM SECTION STYLES
+ ============================================================ */
+#team {
+    background-color: rgba(237, 237, 237, 1);
+}
+
+.media img {
+    margin-right: 40px;
+    max-height: 150px;
+    margin-bottom: 20px;
+    border: 2px solid #85B2CB;
+}
+
+    .media img:hover {
+        opacity: 0.6;
+    }
+/* =============================================================
+  CONTACT SECTION STYLES
+ ============================================================ */
+#contact {
+    background: url(../img/home.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+}
+
+    #contact .overlay {
+	  background-color: rgba(255, 255, 255, 0.8);
+        //background-color: rgba(0,0,0,0.9);
+        padding-top: 90px;
+        min-height: 300px;
+        color: #fff;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #contact h2, h4 {
+	  color: #555555;
+    }
+/* =============================================================
+  FOOTER SECTION STYLES
+ ============================================================ */
+footer {
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 900;
+    background-color: rgba(237, 237, 237, 1);
+}
+
+    footer a, footer a:hover {
+        color: #000;
+        text-decoration: none;
+    }
